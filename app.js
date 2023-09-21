@@ -30,6 +30,6 @@ app.get('/', (req, resp) => {
     resp.sendFile(`${__dirname}/cliente/chat_view.html`)
 })
 
-server.listen(3000,() => {
-    console.log('Servidor corriendo en http://localhost:3000')
+server.listen(5000,() => {
+    console.log('Servidor corriendo en http://localhost:5000')
 })
